@@ -3,7 +3,7 @@ testAcessarSistemaSucesso,login, senha, mensagem
 testAcessarSistemaFalha,login, senha, mensagem
                        ,provaautomatizados@email.com,123,Problemas com o login do usuário
 testNovoUsuarioSucesso,nome, email, senha, mensagem
-                      ,teste,teste@email.com,123456,Usuário inserido com sucesso
+                      ,bvtst,testebv@email.com,123456,Usuário inserido com sucesso
 testNovoUsuarioFalha,nome, email, senha, mensagem
                     ,provaautomatizados,provaautomatizados@email.com,123456,Endereço de email já utilizado
 testContaComMovimentacao,login, senha, mensagem
