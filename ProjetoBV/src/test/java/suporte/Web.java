@@ -11,7 +11,6 @@ public class Web {
 
         WebDriver navegador = new ChromeDriver();
 
-        
         navegador.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         navegador.get("https://seubarriga.wcaquino.me/");
         navegador.manage().window().maximize();
