@@ -27,20 +27,29 @@ Caso contrário, após a realização dos testes, todas as páginas serão fecha
 -------------------------------------CASOS DE TESTES E SEUS RESPECTIVOS MÉTODOS ---------------------------------------
 
 US1: Como usuário, desejo que meus dados sejam de acesso restrito a mim via autenticação a fim de que tenha sigilo para os mesmos.
+
 Validação do acesso ao sistema com as credeciais corretas: testAcessarSistemaSucesso.
+
 Validação do acesso ao sistema com as credeciais erradas: testAcessarSistemaFalha.
 
 US2: Como administrador do sistema, desejo que usuários se cadastrem na aplicação a fim de obter as credenciais de acesso.
+
 Validação da criação de um novo usuário para o sistema: testNovoUsuarioSucesso.
+
 Validação da duplicidade na criação de um novo usuário para o sistema: testNovoUsuarioFalha.
 
 US3: Como usuário, desejo gerenciar minhas contas a fim de controlar minhas movimentações financeiras.
+
 ○ R1: Contas com movimentação não podem ser excluídas: testContaComMovimentacao.
+
 ○ R2: Contas não podem ter o mesmo nome: testCadastrarContaEmDuplicidade.
 
 US4: Como usuário, desejo lançar minhas movimentações de crédito ou débito selecionando uma conta pré-cadastrada a fim de aplicar as movimentações na conta correta.
+
 ○ R1: Campos Obrigatórios: Data da Movimentação, Data do Pagamento (Caso “Pago” esteja marcado)}: testCamposObrigatorios.
+
 ○ R2: Campos de data devem ter formato DD/MM/AAAA: testFormatoData.
+
 ○ R3: Movimentações não podem acontecer em datas futuras: testDataFutura.
 
 US5: Como usuário, desejo ser capaz de encerrar uma sessão iniciada a fim de que meu acesso seja encerrado: testSairdoSistema.
