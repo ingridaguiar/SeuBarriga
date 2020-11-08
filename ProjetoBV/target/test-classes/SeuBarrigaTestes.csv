@@ -1,0 +1,20 @@
+testAcessarSistemaSucesso,login,senha,mensagem
+"",provaautomatizados@email.com,123456,Home
+testAcessarSistemaFalha,login,senha,mensagem,Duration(ms),Duration(ms)
+"",provaautomatizados@email.com,123,Problemas com o login do usuário,1291.0,1291.0
+testNovoUsuarioSucesso,nome,email,senha,mensagem
+"",teste,teste@email.com,123456,Usuário inserido com sucesso
+testNovoUsuarioFalha,nome,email,senha,mensagem
+"",provaautomatizados,provaautomatizados@email.com,123456,Endereço de email já utilizado
+testContaComMovimentacao,login,senha,mensagem
+"",provaautomatizados@email.com,123456,Conta em uso na movimentações
+testCadastrarContaEmDuplicidade,login,senha,conta,mensagem
+"",provaautomatizados@email.com,123456,ContaTeste,Já existe uma conta com esse nome!
+testCamposObrigatorios,login,senha,transacao,pagamento,descricao,interessado,valor,mensagem01,mensagem02
+"",provaautomatizados@email.com,123456,,,testes,testes,10.000,Data da Movimentação é obrigatório,Data do pagamento é obrigatório
+testFormatoData,login,senha,transacao,pagamento,descricao,interessado,valor,mensagem01,mensagem02
+"",provaautomatizados@email.com,123456,08112020,08112020,testes,testes,10.000,Data da Movimentação inválida (DD/MM/YYYY),Data do pagamento inválida (DD/MM/YYYY)
+testDataFutura,login,senha,transacao,pagamento,descricao,interessado,valor,mensagem
+"",provaautomatizados@email.com,123456,08/11/2021,08/11/2021,testes,testes,10.000,Data da Movimentação deve ser menor ou igual à data atual
+testSairdoSistema,login,senha,mensagem
+"",provaautomatizados@email.com,123456,Login
