@@ -3,10 +3,10 @@ Instruções para rodar o Projeto:
 
  1 - Possuir o jdk1.8.0_271;
  2 - Navegador utilizado para testes foi ChromeDriver, portanto, é necessário obter o arquivo chromedriver.exe 
-     compátivel com a Versão 86.0.4240.183 
- 3 - Importar Projeto na IDE;
+     compátivel com a Versão 86.0.4240.183; 
+ 3 - Importar Projeto na IDE; 
  4 - No pacote "suporte", clicar na Classe "Web" e alterar o caminho do arquivo chromedriver.exe (Linha 10)
-     [ System.setProperty("webdriver.chrome.driver", "C:\\Prova\\chromedriver_win32\\chromedriver.exe")] 
+     [ System.setProperty("webdriver.chrome.driver", "C:\\Prova\\chromedriver_win32\\chromedriver.exe")];
  5 - Importar todas as dependências existentes no arquivo pom.xml;
  6 - Acessar a classe principal de Testes "SeuBarrigaTestes" e clicar em "Run Test";
  7 - Todos a massa de dados necessária para a realização dos testes está contida no arquivo "SeuBarrigaTestes.csv".
